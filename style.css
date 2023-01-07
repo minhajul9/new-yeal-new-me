@@ -1,10 +1,46 @@
 /* Universal styles */
-*{
+* {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* Header part styles */
+header {
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 200px 220px;
+}
 
+.header-banner {
+    width: 550px;
+    text-align: right;
+}
+
+.header-banner h1 {
+    font-weight: 800;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.header-description{
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    width: 160px;
+height: 64px;
+font-size: 20px;
+color: #FFFFFF;
+background-color: #F15B22;
+border: none;
+border-radius: 5px;
+}
 
 /* Main Part Styles */
 
