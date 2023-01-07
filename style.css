@@ -12,6 +12,17 @@ section{
     font-size: 40px;
 }
 
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+
 /* Header part styles */
 header {
     background-image: url('images/banner/banner2.png');
@@ -40,15 +51,7 @@ header {
     margin-bottom: 20px;
 }
 
-.btn-primary {
-    width: 160px;
-    height: 64px;
-    font-size: 20px;
-    color: #FFFFFF;
-    background-color: #F15B22;
-    border: none;
-    border-radius: 5px;
-}
+
 
 /* Main Part Styles */
 main {
@@ -108,6 +111,33 @@ main {
         color: #737272;
         font-weight: 500;
         font-size: 25px;
+    }
+
+    /* Watch with gradient  */
+    .watch-gradient{
+        background-image: url('images/watch.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 10px;
+    }
+    .gradient{
+        background-image: url('images/gradient1.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 100px 85px;
+        border-radius: 10px;
+    }
+
+    .gradient .section-title{
+        color: white;
+        width: 440px;
+        margin-bottom: 30px;
+    }
+
+    .gradient .btn-primary{
+        background-color: whitesmoke;
+        color: rgb(144, 144, 243);
     }
     
 
