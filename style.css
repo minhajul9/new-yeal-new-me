@@ -135,10 +135,47 @@ main {
         margin-bottom: 30px;
     }
 
-    .gradient .btn-primary{
+    .btn-secondary{
         background-color: whitesmoke;
-        color: rgb(144, 144, 243);
+        color: rgb(69, 69, 252);
     }
     
 
 /* Footer part Styles */
+footer{
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+    padding: 130px 220px;
+}
+
+.future h3, .subscribe h3{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.future-description{
+    width: 460px;
+}
+
+.future p{
+    margin-bottom: 20px;
+}
+
+.future img{
+    margin-right: 10px;
+}
+
+#email{
+    width: 325px;
+    height: 64px;
+    margin: 20px 0px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    padding-left: 10px;
+    background-color: transparent;
+}
