@@ -4,6 +4,13 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.title {
+    font-weight: 800;
+    font-size: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
 /* Header part styles */
 header {
     background-image: url('images/banner/banner2.png');
@@ -27,22 +34,53 @@ header {
     margin-bottom: 25px;
 }
 
-.header-description{
+.header-description {
     color: #444343;
     margin-bottom: 20px;
 }
 
-.btn-primary{
+.btn-primary {
     width: 160px;
-height: 64px;
-font-size: 20px;
-color: #FFFFFF;
-background-color: #F15B22;
-border: none;
-border-radius: 5px;
+    height: 64px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
 }
 
 /* Main Part Styles */
+main {
+    margin: 130px 200px;
+}
 
+    /* Failure part */
+    .failure {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .failure-points {
+        width: 500px;
+        text-align: left;
+    }
+
+    
+
+    .failure-description{
+        color: #444343;
+        text-align: justify;
+        margin-bottom: 20px;
+        width: 450px;
+    }
+    li{
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    li:before{
+        content: '\2713 ';
+        color: rgb(94, 244, 94);
+    }
 
 /* Footer part Styles */
