@@ -113,6 +113,22 @@ main {
         font-size: 25px;
     }
 
+    .cards{
+        margin-bottom: 70px;
+    }
+
+     /* Bonus Part  */
+
+    /* My goal part */
+    .my-goal{
+        text-align: center;
+    }
+    
+    .goal-card img{
+        height: 100px;
+        width: 100px;
+    }
+
     /* Watch with gradient  */
     .watch-gradient{
         background-image: url('images/watch.png');
@@ -139,7 +155,8 @@ main {
         background-color: whitesmoke;
         color: rgb(69, 69, 252);
     }
-    
+
+   
 
 /* Footer part Styles */
 footer{
